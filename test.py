@@ -1,9 +1,8 @@
-
 import io
 import sys
 from unittest.mock import patch
 import unittest
-import main
+import madlibs
 
 
 class ContainersTestCase(unittest.TestCase):
@@ -16,7 +15,7 @@ class ContainersTestCase(unittest.TestCase):
         cls.capturedOutput = io.StringIO()
         sys.stdout = cls.capturedOutput
         with patch('builtins.input', side_effect=cls.user_input):
-            stacks = main.main()
+            stacks = madlibs.main()
 
     def test_time(self):
         self.assertTrue(self.user_input[0] in self.capturedOutput.getvalue())
