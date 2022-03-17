@@ -1,5 +1,3 @@
-# madlibs
-
 ## Setup
 
 ### New Directory
