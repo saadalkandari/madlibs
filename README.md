@@ -1,6 +1,8 @@
-# Setup
+# madlibs
 
-## New Directory
+## Setup
+
+### New Directory
 
 1. Go into the `Development` directory using `cd`.
 2. Create a new directory called `python` using `mkdir`.
@@ -23,7 +25,7 @@ Once you cloned it, you'll see a new directory inside your `python` directory na
 
 In "madlibs.py", you'll find an empty function called `main()`. Write all your code for this task inside this function.
 
-# Task 
+## Task 
 
 In this task, the user should be given a story with gaps that the user should fill to complete the story. So basically a game of mad libs.
 
@@ -48,7 +50,7 @@ I froze in place and all I could do was shake my head.
 
 The user enters the number `6`, the plural noun `dolls`, the name `stephen sedoll`, the sentence `the future is made of dolls`, and the verb `shake my head`. Then the story at the end is generated automatically based on the user's input.
 
-#### Task Steps:
+### Task Steps:
 
 * Use the story in the example above for the user to complete. The values that need to be filled by the user's input are:
     * `time`
