@@ -1,12 +1,3 @@
-# Treehouse Prerequisites:
-
-Finish the following chapters/steps from [this course](https://teamtreehouse.com/library/python-basics-3) on treehouse:
-
-- Chapter "**Meet Python**": All steps
-- Chapter "**Types and Branching**": All steps up-to and including "**More Strings**"
-
----
-
 # Setup
 
 ## New Directory
