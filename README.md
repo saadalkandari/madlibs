@@ -7,7 +7,7 @@
 
 ## Fork & Clone
 
-1. Fork [this repository](https://github.com/JoinCODED/madlibs), which means to make a copy of the repository under your account. You can do this by clicking the button on the top-right corner of the page that says "Fork". The button looks like this:
+1. Fork [this repository](https://github.com/JoinCODED/madlibs), which means making a copy of the repository under your account. You can do this by clicking the button on the top-right corner of the page that says "Fork". The button looks like this:
     ![Fork Button](https://imgur.com/KmH4Fp4.jpg)
 2. Activate the GitHub Actions by going to the Actions tab and clicking the big green button.
     ![GitHub Action](https://i.gyazo.com/4ad622c46ce2fdb8ffe4dad63e206d47.gif)
@@ -15,11 +15,12 @@
     ![Code](https://i.gyazo.com/e666afa70fd87e36cf8a82c24011811f.gif)
 5. Click the green button on the right that says "Clone or download," then copy the URL in the popup by clicking the copy button to the right of the URL.
     ![Clone](https://i.gyazo.com/5129e26ff760d6a027a6df253e5f0584.gif)
-6. In your `python` directory you just made, clone this repository with this command: `git clone PASTE_URL_HERE`. In this example above, the command would be `git clone https://github.com/msharydemo/madlibs.git`
+    <!-- isn't it better to say "clone this repo by running this command instead of with this command? -->
+6. In your `python`, directory you just made, clone this repository with this command: `git clone PASTE_URL_HERE`. In the example above, the command would be `git clone https://github.com/msharydemo/madlibs.git`
 
-You'll do these same steps for every task from now on all throughout the bootcamp.
+You'll do all the previous steps in every task from now on all throughout the bootcamp.
 
-Once you cloned it, you'll see a new directory inside your `python` directory named "madlibs". This is the git repository you just cloned. Inside you'll find a file named "madlibs.py." This is where you'll be writing the code for this task. You can ignore all the other files inside.
+Once you clone it, you'll see a new directory inside your `python` directory named "madlibs". This is the git repository you just cloned. Inside you'll find a file named "madlibs.py." This is where you'll be writing the code for this task. You can ignore all the other files inside.
 
 In "madlibs.py", you'll find an empty function called `main()`. Write all your code for this task inside this function.
 
