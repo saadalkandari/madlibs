@@ -11,12 +11,11 @@
     ![Fork Button](https://imgur.com/KmH4Fp4.jpg)
 2. Activate the GitHub Actions by going to the Actions tab and clicking the big green button.
     ![GitHub Action](https://i.gyazo.com/4ad622c46ce2fdb8ffe4dad63e206d47.gif)
-4. Go back to the main repository page by clicking the Code tab on the top-left corner.
+3. Go back to the main repository page by clicking the Code tab on the top-left corner.
     ![Code](https://i.gyazo.com/e666afa70fd87e36cf8a82c24011811f.gif)
-5. Click the green button on the right that says "Clone or download," then copy the URL in the popup by clicking the copy button to the right of the URL.
+4. Click the green button on the right that says "Clone or download," then copy the URL in the popup by clicking the copy button to the right of the URL.
     ![Clone](https://i.gyazo.com/5129e26ff760d6a027a6df253e5f0584.gif)
-    <!-- isn't it better to say "clone this repo by running this command instead of with this command? -->
-6. In your `python`, directory you just made, clone this repository with this command: `git clone PASTE_URL_HERE`. In the example above, the command would be `git clone https://github.com/msharydemo/madlibs.git`
+5. In your `python`, directory you just made, clone this repository with this command: `git clone PASTE_URL_HERE`. In the example above, the command would be `git clone https://github.com/msharydemo/madlibs.git`
 
 You'll do all the previous steps in every task from now on all throughout the bootcamp.
 
@@ -24,11 +23,12 @@ Once you clone it, you'll see a new directory inside your `python` directory nam
 
 In "madlibs.py", you'll find an empty function called `main()`. Write all your code for this task inside this function.
 
-## Task 
+## Task
 
 In this task, the user should be given a story with gaps that the user should fill to complete the story. So basically a game of mad libs.
 
 Example:
+
 ```
 Mad libs where libs get mad.
 Start below:
@@ -49,14 +49,14 @@ I froze in place and all I could do was shake my head.
 
 The user enters the number `6`, the plural noun `dolls`, the name `stephen sedoll`, the sentence `the future is made of dolls`, and the verb `shake my head`. Then the story at the end is generated automatically based on the user's input.
 
-### Task Steps:
+### Task Steps
 
-* Use the story in the example above for the user to complete. The values that need to be filled by the user's input are:
-    * `time`
-    * `items`
-    * `name`: When printing the name to the user, the first letter of each word should be capitalized. See the example above.
-    * `scream`: When printing the scream to the user, all the letters in the scream have to be capitalized. See the example above.
-    * `action`
-* Add the file `madlibs.py` to the git repository, commit changes, and push your code to the remote repository.
+- Use the story in the example above for the user to complete. The values that need to be filled by the user's input are:
+  - `time`
+  - `items`
+  - `name`: When printing the name to the user, the first letter of each word should be capitalized. See the example above.
+  - `scream`: When printing the scream to the user, all the letters in the scream have to be capitalized. See the example above.
+  - `action`
+- Add the file `madlibs.py` to the git repository, commit changes, and push your code to the remote repository.
 
 Hint: You will need [string methods](https://www.w3schools.com/python/python_ref_string.asp).
